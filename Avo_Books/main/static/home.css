@@ -1,0 +1,51 @@
+body {
+    background-color: antiquewhite;
+}
+
+.home-div-head {
+    background-color: wheat;
+    width: 30vw;
+    border-radius: 20px;
+    padding-top: 6vh;
+    margin-top: -10vh;
+}
+
+.home-h1 {
+    font-size: 4vw;
+    font-family: 'Times New Roman';
+    padding-bottom: 3%;
+}
+
+.search-bar {
+    border: 2px solid wheat;
+    border-radius: 30px;
+    padding: 1vw;
+    width: 50vw;
+    font-size: 1vw;
+    margin-top: 27vh;
+    font-family: 'Times New Roman';
+    outline: none;
+}
+
+.search-but {
+    border: 2px solid wheat;
+    border-radius: 30px;
+    padding: 1vw;
+    width: 14vw;
+    font-size: 1vw;
+    margin-top: 10vh;
+    font-family: 'Times New Roman';
+    outline: none;
+    background-color: wheat;
+    transition: background-color 0.05s ease-in-out, font-size 0.05s ease-in-out;
+}
+
+.search-but:hover {
+    background-color: #f5f5dc;
+    font-size: 1.1vw;
+}
+
+.search-but:active {
+    background-color: #e6e6cb;
+    transform: scale(0.98);
+}

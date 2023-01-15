@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <title>Avo-Books</title>
+</head>
+<body>
+    <center>
+        <div class="home-div-head">
+            <h1 class="home-h1">Avo-Books</h1>
+        </div>
+        
+        <form action="search-results/" method="get">
+            <input class="search-bar" placeholder="Search for a book..." type="search" name="search" id="search">
+            <br>
+            <input class="search-but" type="submit" value="Search">
+        </form>
+    </center>
+</body>
+</html>

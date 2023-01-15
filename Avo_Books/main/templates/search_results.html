@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'search_results.css' %}">
+    <title>Avo-Books-Search-Results</title>
+</head>
+<body>
+    <center>
+        <div class="home-div-head">
+            <h1 class="home-h1">Search-Results</h1>
+        </div>
+
+        <button class="back-but" onclick="window.location.href = 'http://127.0.0.1:8000/'">Search something other</button>
+
+        {% for key, value in books.items %}
+            <div class="book-preview">
+                <img class="book-img" src='{{ value.thumbnail_link }}' alt='thumbnail'>
+                <div class="book-text">
+                    <p class="book-title" style="position: relative; top: -6vh;">Title: {{ key }}</p>
+                    <a href={{ value.link }}">View book</a>
+                </div>
+            </div>
+        {% endfor %}
+
+    </center>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    background-color: antiquewhite;
+}
+
+.home-div-head {
+    background-color: wheat;
+    width: 30vw;
+    border-radius: 20px;
+    padding-top: 6vh;
+    margin-top: -10vh;
+}
+
+.home-h1 {
+    font-size: 4vw;
+    font-family: 'Times New Roman';
+    padding-bottom: 3%;
+}
+
+.back-but {
+    border: 2px solid wheat;
+    border-radius: 30px;
+    padding: 1vw;
+    width: 14vw;
+    font-size: 1vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    font-family: 'Times New Roman';
+    outline: none;
+    background-color: wheat;
+    transition: background-color 0.05s ease-in-out, font-size 0.05s ease-in-out;
+}
+
+.back-but:hover {
+    background-color: #f5f5dc;
+    font-size: 1.1vw;
+}
+
+.back-but:active {
+    background-color: #e6e6cb;
+    transform: scale(0.98);
+}
+
+.book-preview {
+    background-color: wheat;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+
+.book-text {
+    flex: 1;
+    text-align: left;
+}
+
+.book-img {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.book-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.book-descr {
+    color: rgb(35, 35, 35);
+}
